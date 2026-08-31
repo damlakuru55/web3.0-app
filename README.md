@@ -10,6 +10,10 @@ A frontend project exploring modern Web3 concepts and decentralized application 
 - Clean navigation
 - Blockchain-focused visual design
 
+## Interface States
+
+Wallet and network controls should clearly communicate disconnected, connected, unsupported-network, and pending states. Actions should provide visible feedback instead of silently failing.
+
 ## Technologies
 
 - HTML5
