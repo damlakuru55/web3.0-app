@@ -24,6 +24,10 @@ The interface should make connection status and network context visible before a
 
 Connection and network controls should use descriptive labels and visible focus indicators. Important state information should not rely only on color.
 
+## Network Feedback
+
+When the selected network is unavailable or unsupported, the interface should explain the problem clearly and prevent misleading action states until the network context is valid.
+
 ## Technologies
 
 - HTML5
