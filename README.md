@@ -55,3 +55,7 @@ The interface keeps state changes explicit and predictable. User input should be
 ## Development Notes
 
 Web3 interface actions should clearly separate wallet state, network state, and application state so unavailable connections receive useful feedback.
+
+## Release Check
+
+Wallet, network, and application states should remain visibly distinct during connection and pending-action flows.
