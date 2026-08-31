@@ -10,6 +10,7 @@ A frontend project exploring modern Web3 concepts and decentralized application 
 - Clean navigation
 - Blockchain-focused visual design
 - Clear connection states
+- Keyboard-friendly controls
 
 ## Interface States
 
@@ -18,6 +19,10 @@ Wallet and network controls should clearly communicate disconnected, connected, 
 ## Safety-Oriented UX
 
 The interface should make connection status and network context visible before a user starts an action. Transaction-style controls should communicate pending and completed states clearly.
+
+## Accessibility
+
+Connection and network controls should use descriptive labels and visible focus indicators. Important state information should not rely only on color.
 
 ## Technologies
 
