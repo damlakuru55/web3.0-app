@@ -46,16 +46,14 @@ This project explores Web3-oriented UI patterns while practicing responsive fron
 
 This project is open source and available for personal and educational use.
 
-
 ## Development Notes
 
 The interface keeps state changes explicit and predictable. User input should be validated before processing, successful actions should update visible state immediately, and invalid states should provide clear feedback.
 
-
-## Development Notes
-
-Web3 interface actions should clearly separate wallet state, network state, and application state so unavailable connections receive useful feedback.
-
 ## Release Check
 
 Wallet, network, and application states should remain visibly distinct during connection and pending-action flows.
+
+## Final Review
+
+The documented Web3 interface keeps connection, network, and application state clearly separated.
